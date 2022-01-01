@@ -59,7 +59,7 @@ app.use('/api',require('./routers/api'));
 app.use('/',require('./routers/main'));
 
 //监听http请求
-var port = 8089;
+var port = 10301;
 var uri = 'http://localhost:' + port;
 // 第一个参数 连接的协议和地址
 mongoose.connect('mongodb://localhost:27017/blog',function (err) {
